@@ -4,14 +4,14 @@
   "description": "Convert color schemes to multiple terminal configs",
   "main": "./pkg/index.js",
   "scripts": {
-    "test": "mocha -R spec -b test/*",
-    "build": "gulp bundle",
-    "examples": "gulp examples",
+    "test": "npx mocha -R spec -b test/*",
+    "build": "npx gulp bundle",
+    "examples": "npx gulp examples",
     "prepublish": "npm run test && npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/stayradiated/termcolors.git"
+    "url": "https://github.com/sambacha/termcolors.git"
   },
   "directories": {
     "bin": "bin",
@@ -32,7 +32,7 @@
   "author": "George Czabania",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/stayradiated/termcolors/issues"
+    "url": "https://github.com/sambacha/termcolors/issues"
   },
   "homepage": "https://github.com/stayradiated/termcolors",
   "devDependencies": {
